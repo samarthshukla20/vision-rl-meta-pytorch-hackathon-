@@ -1,0 +1,55 @@
+# =========================
+# 1. Project Specific (Data & Models)
+# =========================
+data/
+*.zip
+ppo_vision_tensorboard/
+ppo_vision_annotator_model/
+
+# =========================
+# 2. SECRETS (CRITICAL)
+# =========================
+# Never upload API keys (like your Groq or Meta LLM keys) to GitHub!
+# Always store them in a .env file locally.
+.env
+.env.*
+secrets.json
+
+# =========================
+# 3. Python & Virtual Environments
+# =========================
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# 4. VS Code & IDEs
+# =========================
+# Ignores your personal editor settings and workspace configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# 5. Operating System Files
+# =========================
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
